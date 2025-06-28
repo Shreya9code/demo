@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from 'react'
-import InterviewHeader from './_components/interviewHeader'
+import InterviewHeader from './_components/InterviewHeader'
 import { InterviewDataContext } from '@/context/InterviewDataContext'
 const InterviewLayout = ({children}) => {
   const [interviewInfo,setInterviewInfo] = useState(null);
