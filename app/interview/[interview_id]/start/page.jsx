@@ -4,7 +4,7 @@ import { Mic2, Phone, Timer } from "lucide-react";
 import Image from "next/image";
 import React, { useContext, useEffect, useState } from "react";
 import Vapi from "@vapi-ai/web";
-import AlertConfirmation from "./_components/alertConfirmation";
+import AlertConfirmation from "./_components/AlertConfirmation";
 import { toast } from "sonner";
 import axios from "axios";
 
